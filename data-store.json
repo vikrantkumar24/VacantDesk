@@ -1,0 +1,185 @@
+{
+  "users": {
+    "hod.cse@nitrr.ac.in": {
+      "id": "u-1",
+      "email": "hod.cse@nitrr.ac.in",
+      "role": "hod",
+      "name": "Dr. Head of Department CSE",
+      "department": "Computer Science & Engineering",
+      "createdAt": "2026-10-03T16:12:48.577Z",
+      "updatedAt": "2026-10-03T16:12:48.578Z"
+    },
+    "faculty.dewangan@nitrr.ac.in": {
+      "id": "u-2",
+      "email": "faculty.dewangan@nitrr.ac.in",
+      "role": "faculty",
+      "name": "Dr. S. K. Dewangan",
+      "department": "Computer Science & Engineering",
+      "createdAt": "2026-10-03T16:12:48.578Z",
+      "updatedAt": "2026-10-03T16:12:48.578Z"
+    },
+    "faculty.koley@nitrr.ac.in": {
+      "id": "u-3",
+      "email": "faculty.koley@nitrr.ac.in",
+      "role": "faculty",
+      "name": "Dr. Ebha Koley",
+      "department": "Electrical Engineering",
+      "createdAt": "2026-10-03T16:12:48.578Z",
+      "updatedAt": "2026-10-03T16:12:48.578Z"
+    },
+    "cr.cse.sem6@nitrr.ac.in": {
+      "id": "u-4",
+      "email": "cr.cse.sem6@nitrr.ac.in",
+      "role": "cr",
+      "name": "Aman Verma (CR CSE-6)",
+      "department": "Computer Science & Engineering",
+      "createdAt": "2026-10-03T16:12:48.578Z",
+      "updatedAt": "2026-10-03T16:12:48.578Z"
+    },
+    "student.rahul@nitrr.ac.in": {
+      "id": "u-5",
+      "email": "student.rahul@nitrr.ac.in",
+      "role": "student",
+      "name": "Rahul Sharma",
+      "department": "Computer Science & Engineering",
+      "createdAt": "2026-10-03T16:12:48.578Z",
+      "updatedAt": "2026-10-03T16:12:48.578Z"
+    },
+    "student@it.nitrr.ac.in": {
+      "id": "u-6",
+      "email": "student@it.nitrr.ac.in",
+      "role": "student",
+      "name": "Ananya Sen",
+      "department": "Information Technology",
+      "createdAt": "2026-10-03T16:44:06.500Z",
+      "updatedAt": "2026-10-03T16:44:06.500Z"
+    },
+    "student@cse.nitrr.ac.in": {
+      "id": "u-7",
+      "email": "student@cse.nitrr.ac.in",
+      "role": "student",
+      "name": "Kunal Verma",
+      "department": "Computer Science & Engineering",
+      "createdAt": "2026-10-03T16:44:06.500Z",
+      "updatedAt": "2026-10-03T16:44:06.500Z"
+    },
+    "cr@it.nitrr.ac.in": {
+      "id": "u-8",
+      "email": "cr@it.nitrr.ac.in",
+      "role": "cr",
+      "name": "Rohan Gupta (CR IT)",
+      "department": "Information Technology",
+      "createdAt": "2026-10-03T16:44:06.500Z",
+      "updatedAt": "2026-10-03T16:44:06.500Z"
+    },
+    "spanda101.btech2026@cse.nitrr.ac.in": {
+      "id": "u-1791046461560-9vwek",
+      "email": "spanda101.btech2026@cse.nitrr.ac.in",
+      "role": "student",
+      "name": "spanda101.btech2026",
+      "createdAt": "2026-10-03T16:54:21.560Z",
+      "updatedAt": "2026-10-03T16:54:21.560Z"
+    },
+    "your.email@it.nitrr.ac.in": {
+      "id": "u-1791047358456-t4gh2",
+      "email": "your.email@it.nitrr.ac.in",
+      "role": "cr",
+      "name": "your.email",
+      "createdAt": "2026-10-03T17:09:18.456Z",
+      "updatedAt": "2026-10-03T17:09:18.456Z"
+    },
+    "faculty.test@nitrr.ac.in": {
+      "id": "u-1791047365961-hn1gs",
+      "email": "faculty.test@nitrr.ac.in",
+      "role": "faculty",
+      "name": "faculty.test",
+      "createdAt": "2026-10-03T17:09:25.961Z",
+      "updatedAt": "2026-10-03T17:09:25.961Z"
+    },
+    "new.random@it.nitrr.ac.in": {
+      "id": "u-1791047373259-s5qki",
+      "email": "new.random@it.nitrr.ac.in",
+      "role": "student",
+      "name": "new.random",
+      "createdAt": "2026-10-03T17:09:33.259Z",
+      "updatedAt": "2026-10-03T17:09:33.259Z"
+    }
+  },
+  "bookings": [
+    {
+      "roomId": "f-38",
+      "roomCode": "F-38",
+      "userEmail": "your.email@it.nitrr.ac.in",
+      "day": "Friday",
+      "startTime": "14:00",
+      "endTime": "15:00",
+      "courseCode": "IT301",
+      "courseName": "Data Engineering",
+      "instructor": "Prof. Sen",
+      "reason": "CR revision class",
+      "id": "bk-1791047380839-x0fb8",
+      "status": "confirmed",
+      "createdAt": "2026-10-03T17:09:40.839Z"
+    },
+    {
+      "roomId": "f-40",
+      "roomCode": "F-40",
+      "userEmail": "cr@it.nitrr.ac.in",
+      "day": "Thursday",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "courseCode": "IT601",
+      "courseName": "Cloud Systems",
+      "instructor": "Prof. Rao",
+      "reason": "Branch CR extra class",
+      "id": "bk-1791045853516-5fzz1",
+      "status": "confirmed",
+      "createdAt": "2026-10-03T16:44:13.516Z"
+    },
+    {
+      "roomId": "f-42",
+      "roomCode": "F-42",
+      "userEmail": "cr.cse.sem6@nitrr.ac.in",
+      "day": "Thursday",
+      "startTime": "11:30",
+      "endTime": "12:30",
+      "courseCode": "CS305",
+      "courseName": "Compiler Design Extra Lecture",
+      "instructor": "Dr. S. K. Dewangan",
+      "reason": "Mid-Sem syllabus completion",
+      "id": "bk-1791044879334-9sgg8",
+      "status": "confirmed",
+      "createdAt": "2026-10-03T16:27:59.334Z"
+    },
+    {
+      "roomId": "g-01",
+      "roomCode": "G-01",
+      "userEmail": "faculty.dewangan@nitrr.ac.in",
+      "day": "Wednesday",
+      "startTime": "14:00",
+      "endTime": "15:00",
+      "courseCode": "CS201",
+      "courseName": "Data Structures Lab Extra",
+      "instructor": "Dr. S. K. Dewangan",
+      "reason": "Doubt clearing session",
+      "id": "bk-1791043986203-ebn5y",
+      "status": "confirmed",
+      "createdAt": "2026-10-03T16:13:06.203Z"
+    },
+    {
+      "roomId": "f-40",
+      "roomCode": "F-40",
+      "userEmail": "cr.cse.sem6@nitrr.ac.in",
+      "day": "Tuesday",
+      "startTime": "15:30",
+      "endTime": "16:30",
+      "courseCode": "CS302",
+      "courseName": "Advanced Operating Systems",
+      "instructor": "Aman Verma (CR CSE-6)",
+      "reason": "Makeup lecture for quiz prep",
+      "id": "bk-1791043981637-2d999",
+      "status": "confirmed",
+      "createdAt": "2026-10-03T16:13:01.637Z"
+    }
+  ]
+}

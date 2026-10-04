@@ -1,0 +1,45 @@
+{
+  "entities": {
+    "Room": {
+      "title": "Room",
+      "description": "Classroom document tracking live concurrency lock and reservation status",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique room identifier"
+        },
+        "code": {
+          "type": "string",
+          "description": "Display room code e.g. G-01, F-40"
+        },
+        "status": {
+          "type": "string",
+          "enum": ["vacant", "pending", "booked"],
+          "description": "Current room availability status"
+        },
+        "lockedBy": {
+          "type": "string",
+          "description": "Email of the user currently holding the booking lock"
+        },
+        "lockedUntil": {
+          "type": "number",
+          "description": "Timestamp in ms until the booking lock expires"
+        },
+        "updatedAt": {
+          "type": "number",
+          "description": "Timestamp when this room record was last updated"
+        }
+      },
+      "required": ["id", "code", "status"]
+    }
+  },
+  "firestore": {
+    "/rooms/{roomId}": {
+      "schema": {
+        "$ref": "#/entities/Room"
+      },
+      "description": "Collection of all classrooms with their real-time concurrency status"
+    }
+  }
+}

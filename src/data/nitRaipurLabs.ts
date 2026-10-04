@@ -1,0 +1,87 @@
+import { Room } from './campusData.ts';
+
+export const NITRR_ROOM_CCC: Room = {
+  id: 'ccc-main',
+  code: 'CCC',
+  name: 'Central Computer Center & Language Lab',
+  block: 'Block A (Computing & AI)',
+  blockShort: 'Block A',
+  floor: 0,
+  wing: 'Central',
+  capacity: 120,
+  type: 'Computer Lab',
+  amenities: { projector: true, ac: true, smartBoard: true, chargingSockets: 'Plenty', wifiSignal: 'Excellent', soundSystem: true },
+  suitableForStudy: true,
+  coordinates: { x: 30, y: 150, width: 140, height: 95 },
+  schedule: [
+    // Communication Skills Lab schedules across sections
+    { id: 'ccc-f-1', day: 'Monday', startTime: '14:00', endTime: '15:40', courseCode: 'HS102', courseName: 'Communication Skill Lab F2', instructor: 'Dr. Jaya Dwivedi', branch: 'CSE', degree: 'B.Tech', year: '1st Year', batch: 'Section F2' },
+    { id: 'ccc-k-1', day: 'Monday', startTime: '16:30', endTime: '18:00', courseCode: 'HS102', courseName: 'Communication Skill Lab K1', instructor: 'Dr. Anil Manjhi', branch: 'Metallurgy', degree: 'B.Tech', year: '1st Year', batch: 'Section K1' },
+    { id: 'ccc-f-2', day: 'Tuesday', startTime: '16:30', endTime: '18:00', courseCode: 'HS102', courseName: 'Communication Skill Lab F1', instructor: 'Dr. Jaya Dwivedi', branch: 'CSE', degree: 'B.Tech', year: '1st Year', batch: 'Section F1' },
+    { id: 'ccc-k-2', day: 'Tuesday', startTime: '14:00', endTime: '15:40', courseCode: 'HS102', courseName: 'Communication Skill Lab K2', instructor: 'Dr. S.K. Tarai', branch: 'Metallurgy', degree: 'B.Tech', year: '1st Year', batch: 'Section K2' },
+    { id: 'ccc-l-1', day: 'Tuesday', startTime: '09:00', endTime: '10:40', courseCode: 'HS102', courseName: 'Communication Skill Lab L2', instructor: 'Dr. Sandip Sarkar', branch: 'Combined', degree: 'B.Tech', year: '1st Year', batch: 'Section L2' },
+    { id: 'ccc-l-2', day: 'Tuesday', startTime: '10:40', endTime: '12:20', courseCode: 'HS102', courseName: 'Communication Skill Lab L1', instructor: 'Dr. Sandip Sarkar', branch: 'Combined', degree: 'B.Tech', year: '1st Year', batch: 'Section L1' },
+    { id: 'ccc-h-1', day: 'Wednesday', startTime: '10:40', endTime: '12:20', courseCode: 'HS102', courseName: 'Communication Skill Lab H2', instructor: 'Dr. Sandip Sarkar', branch: 'ECE', degree: 'B.Tech', year: '1st Year', batch: 'Section H2' },
+    { id: 'ccc-m-1', day: 'Wednesday', startTime: '14:00', endTime: '15:40', courseCode: 'HS102', courseName: 'Communication Skill Lab M2', instructor: 'Dr. Y. Vijaya Babu', branch: 'Combined', degree: 'B.Tech', year: '1st Year', batch: 'Section M2' },
+    { id: 'ccc-m-2', day: 'Wednesday', startTime: '15:40', endTime: '17:15', courseCode: 'HS102', courseName: 'Communication Skill Lab M1', instructor: 'Dr. Y. Vijaya Babu', branch: 'Combined', degree: 'B.Tech', year: '1st Year', batch: 'Section M1' },
+    { id: 'ccc-g-1', day: 'Thursday', startTime: '10:40', endTime: '12:20', courseCode: 'HS102', courseName: 'Communication Skill Lab G1', instructor: 'Dr. Y. Vijaya Babu', branch: 'EEE', degree: 'B.Tech', year: '1st Year', batch: 'Section G1' },
+    { id: 'ccc-i-2', day: 'Thursday', startTime: '15:40', endTime: '17:15', courseCode: 'HS102', courseName: 'Communication Skill Lab I2', instructor: 'Dr. Shashikanta Tarai', branch: 'IT', degree: 'B.Tech', year: '1st Year', batch: 'Section I2' },
+    { id: 'ccc-i-1', day: 'Friday', startTime: '11:30', endTime: '13:00', courseCode: 'HS102', courseName: 'Communication Skill Lab I1', instructor: 'Dr. Anoop Kumar Tiwari', branch: 'IT', degree: 'B.Tech', year: '1st Year', batch: 'Section I1' },
+    { id: 'ccc-j-1', day: 'Friday', startTime: '14:00', endTime: '15:40', courseCode: 'HS102', courseName: 'Communication Skill Lab J2', instructor: 'Dr. Anil Manjhi', branch: 'MECH', degree: 'B.Tech', year: '1st Year', batch: 'Section J2' },
+    { id: 'ccc-j-2', day: 'Friday', startTime: '15:40', endTime: '17:15', courseCode: 'HS102', courseName: 'Communication Skill Lab J1', instructor: 'Dr. Anil Manjhi', branch: 'MECH', degree: 'B.Tech', year: '1st Year', batch: 'Section J1' },
+  ],
+};
+
+export const NITRR_ROOM_APJ: Room = {
+  id: 'apj-hall',
+  code: 'APJ-HALL',
+  name: 'Dr. APJ Abdul Kalam Hall',
+  block: 'Block A (Computing & AI)',
+  blockShort: 'Block A',
+  floor: 0,
+  wing: 'Central',
+  capacity: 250,
+  type: 'Seminar Hall',
+  amenities: { projector: true, ac: true, smartBoard: true, chargingSockets: 'Plenty', wifiSignal: 'Excellent', soundSystem: true },
+  suitableForStudy: true,
+  coordinates: { x: 190, y: 150, width: 140, height: 95 },
+  schedule: [
+    // Yoga & Health Lab sessions
+    { id: 'apj-g-1', day: 'Monday', startTime: '09:00', endTime: '10:40', courseCode: 'YH101', courseName: 'Yoga & Health Lab (Sec G)', instructor: 'Dr. Manju Shukla & Mr. Suraj Nishad', branch: 'EEE', degree: 'B.Tech', year: '1st Year', batch: 'Section G' },
+    { id: 'apj-m-1', day: 'Monday', startTime: '10:40', endTime: '12:20', courseCode: 'YH101', courseName: 'Yoga & Health Lab (Sec M)', instructor: 'Dr. Manju Shukla & Mr. Suraj Nishad', branch: 'Combined', degree: 'B.Tech', year: '1st Year', batch: 'Section M' },
+    { id: 'apj-h-1', day: 'Tuesday', startTime: '09:00', endTime: '10:40', courseCode: 'YH101', courseName: 'Yoga & Health Lab (Sec H)', instructor: 'Dr. Manju Shukla & Mr. Suraj Nishad', branch: 'ECE', degree: 'B.Tech', year: '1st Year', batch: 'Section H' },
+    { id: 'apj-i-1', day: 'Wednesday', startTime: '09:00', endTime: '10:40', courseCode: 'YH101', courseName: 'Yoga & Health Lab (Sec I)', instructor: 'Dr. Manju Shukla & Mr. Suraj Nishad', branch: 'IT', degree: 'B.Tech', year: '1st Year', batch: 'Section I' },
+    { id: 'apj-j-1', day: 'Thursday', startTime: '09:00', endTime: '10:40', courseCode: 'YH101', courseName: 'Yoga & Health Lab (Sec J)', instructor: 'Dr. Manju Shukla & Mr. Suraj Nishad', branch: 'MECH', degree: 'B.Tech', year: '1st Year', batch: 'Section J' },
+    { id: 'apj-k-1', day: 'Thursday', startTime: '10:40', endTime: '12:20', courseCode: 'YH101', courseName: 'Yoga & Health Lab (Sec K)', instructor: 'Dr. Manju Shukla & Mr. Suraj Nishad', branch: 'Metallurgy', degree: 'B.Tech', year: '1st Year', batch: 'Section K' },
+    { id: 'apj-f-1', day: 'Friday', startTime: '09:00', endTime: '10:40', courseCode: 'YH101', courseName: 'Yoga & Health Lab (Sec F)', instructor: 'Dr. Manju Shukla & Mr. Suraj Nishad', branch: 'CSE', degree: 'B.Tech', year: '1st Year', batch: 'Section F' },
+    { id: 'apj-l-1', day: 'Friday', startTime: '10:40', endTime: '12:20', courseCode: 'YH101', courseName: 'Yoga & Health Lab (Sec L)', instructor: 'Dr. Manju Shukla & Mr. Suraj Nishad', branch: 'Combined', degree: 'B.Tech', year: '1st Year', batch: 'Section L' },
+  ],
+};
+
+export const NITRR_ROOM_D3D4: Room = {
+  id: 'd3-d4',
+  code: 'D3-D4',
+  name: 'Drawing Hall D-3 & D-4 (Graphics)',
+  block: 'Block B (Circuits & Core)',
+  blockShort: 'Block B',
+  floor: 2,
+  wing: 'East Wing',
+  capacity: 100,
+  type: 'Computer Lab',
+  amenities: { projector: true, ac: true, smartBoard: false, chargingSockets: 'Moderate', wifiSignal: 'Good', soundSystem: true },
+  suitableForStudy: true,
+  coordinates: { x: 30, y: 150, width: 140, height: 95 },
+  schedule: [
+    // Engineering Graphics sessions
+    { id: 'd3-d-1', day: 'Tuesday', startTime: '14:00', endTime: '15:40', courseCode: 'ME102', courseName: 'Engineering Graphics (Th.)', instructor: 'Dr. Ankur Gupta & Dr. P.M. Ramteke', branch: 'CIVIL', degree: 'B.Tech', year: '1st Year', batch: 'Section D' },
+    { id: 'd3-d-2', day: 'Tuesday', startTime: '15:40', endTime: '17:15', courseCode: 'ME102', courseName: 'Engineering Graphics (Lab)', instructor: 'Dr. Ankur Gupta & Dr. P.M. Ramteke', branch: 'CIVIL', degree: 'B.Tech', year: '1st Year', batch: 'Section D' },
+    { id: 'd3-i-1', day: 'Tuesday', startTime: '09:00', endTime: '11:30', courseCode: 'ME102', courseName: 'Engineering Graphics (Th.)', instructor: 'Dr. R. Salhotra & Dr. P. K. Chourasiya', branch: 'IT', degree: 'B.Tech', year: '1st Year', batch: 'Section I' },
+    { id: 'd3-i-2', day: 'Tuesday', startTime: '11:30', endTime: '13:00', courseCode: 'ME102', courseName: 'Engineering Graphics (Lab)', instructor: 'Dr. R. Salhotra & Dr. P. K. Chourasiya', branch: 'IT', degree: 'B.Tech', year: '1st Year', batch: 'Section I' },
+    { id: 'd3-f-1', day: 'Thursday', startTime: '09:00', endTime: '11:30', courseCode: 'ME102', courseName: 'Engineering Graphics (Th.)', instructor: 'Dr. R. K. Yadav', branch: 'CSE', degree: 'B.Tech', year: '1st Year', batch: 'Section F' },
+    { id: 'd3-f-2', day: 'Thursday', startTime: '11:30', endTime: '13:00', courseCode: 'ME102', courseName: 'Engineering Graphics (Lab)', instructor: 'Dr. R. K. Yadav', branch: 'CSE', degree: 'B.Tech', year: '1st Year', batch: 'Section F' },
+    { id: 'd3-k-1', day: 'Thursday', startTime: '14:00', endTime: '15:40', courseCode: 'ME102', courseName: 'Engineering Graphics (Th.)', instructor: 'Dr. K S Bal', branch: 'Metallurgy', degree: 'B.Tech', year: '1st Year', batch: 'Section K' },
+    { id: 'd3-k-2', day: 'Thursday', startTime: '15:40', endTime: '17:15', courseCode: 'ME102', courseName: 'Engineering Graphics (Lab)', instructor: 'Dr. K S Bal', branch: 'Metallurgy', degree: 'B.Tech', year: '1st Year', batch: 'Section K' },
+    { id: 'd3-l-1', day: 'Friday', startTime: '14:00', endTime: '15:40', courseCode: 'ME102', courseName: 'Engineering Graphics (Th.)', instructor: 'Dr. P K Chaurasiya', branch: 'Combined', degree: 'B.Tech', year: '1st Year', batch: 'Section L' },
+    { id: 'd3-l-2', day: 'Friday', startTime: '15:40', endTime: '17:15', courseCode: 'ME102', courseName: 'Engineering Graphics (Lab)', instructor: 'Dr. P K Chaurasiya', branch: 'Combined', degree: 'B.Tech', year: '1st Year', batch: 'Section L' },
+  ],
+};
