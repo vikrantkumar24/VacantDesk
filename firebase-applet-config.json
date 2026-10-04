@@ -1,12 +1,12 @@
 {
-  "projectId": "premium-order-4smzh",
-  "appId": "1:361608641989:web:c475807b3b956400749fac",
-  "apiKey": "AIzaSyDJwl_aX1yCz62dtVjvVpafCCcLSNcry04",
-  "authDomain": "premium-order-4smzh.firebaseapp.com",
-  "firestoreDatabaseId": "ai-studio-vacantdeskruntim-8fae6e6f-b26c-43ae-a9fe-2fe3a5850a3f",
-  "storageBucket": "premium-order-4smzh.firebasestorage.app",
-  "messagingSenderId": "361608641989",
-  "measurementId": "",
-  "oAuthClientId": "361608641989-4iogr27a8tin2emmrp8dj8c3pd8qqmf6.apps.googleusercontent.com",
+  "projectId": "vacantdesk-mail",
+  "appId": "1:467698859696:web:29dda8d0b87b3d3270c575",
+  "apiKey": "AIzaSyC-F5Xa6_CyJefoPt7DLLdKoPZWr9WrA1Q",
+  "authDomain": "vacantdesk-mail.firebaseapp.com",
+  "firestoreDatabaseId": "(default)",
+  "storageBucket": "vacantdesk-mail.firebasestorage.app",
+  "messagingSenderId": "467698859696",
+  "measurementId": "G-1H4EK1NYP0",
+  "oAuthClientId": "",
   "recaptchaSiteKey": ""
 }
