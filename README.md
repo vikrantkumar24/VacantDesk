@@ -1,7 +1,7 @@
 # 🏢 VacantDesk
 
 **The Real-Time Logistical Operating System for Campus Infrastructure.**
-Built for the Smart India Hackathon (SIH) | National Institute of Technology (NIT) Raipur.
+Built for the CodeUtsava | National Institute of Technology (NIT) Raipur.
 
 ![React 19](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
