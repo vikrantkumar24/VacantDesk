@@ -1,7 +1,6 @@
-Markdown
 # 🏢 VacantDesk
 
-**The Real-Time Logistical Operating System for Campus Infrastructure.**  
+**The Real-Time Logistical Operating System for Campus Infrastructure.**
 Built for the Smart India Hackathon (SIH) | National Institute of Technology (NIT) Raipur.
 
 ![React 19](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
@@ -18,17 +17,17 @@ Built for the Smart India Hackathon (SIH) | National Institute of Technology (NI
 
 ## 🚀 Architectural Innovations
 
-*   **⚡ Ephemeral Pessimistic Locking:** A real-time concurrency engine. The millisecond a user selects an empty room, the database executes an ephemeral lock, instantly disabling the room across the entire campus network to prevent double-booking.
-*   **🛡️ The Data Promise (Privacy by Design):** Zero-password infrastructure using Google Workspace Role-Based Access Control (RBAC). Only authenticated `@nitrr.ac.in` institutional emails can access the grid.
-*   **📬 Automated Institutional Handoff:** Integrated Node.js + Nodemailer backend automatically generates and dispatches formatted reservation requests to administration (e.g., `hod.it@nitrr.ac.in`), standardizing the approval pipeline.
-*   **🎨 Editorial Brutalism UI:** Designed on a strict bento-box grid with a high-contrast palette (Warm Cream `#F4EBD9` and Matte Black `#1A1A1A`) to eliminate SaaS boilerplate and guarantee accessibility.
+- **⚡ Ephemeral Pessimistic Locking:** A real-time concurrency engine. The millisecond a user selects an empty room, the database executes an ephemeral lock, instantly disabling the room across the entire campus network to prevent double-booking.
+- **🛡️ The Data Promise (Privacy by Design):** Zero-password infrastructure using Google Workspace Role-Based Access Control (RBAC). Only authenticated `@nitrr.ac.in` institutional emails can access the grid.
+- **📬 Automated Institutional Handoff:** Integrated Node.js + Nodemailer backend automatically generates and dispatches formatted reservation requests to administration (e.g., `hod.it@nitrr.ac.in`), standardizing the approval pipeline.
+- **🎨 Editorial Brutalism UI:** Designed on a strict bento-box grid with a high-contrast palette (Warm Cream `#F4EBD9` and Matte Black `#1A1A1A`) to eliminate SaaS boilerplate and guarantee accessibility.
 
 ## 🛠️ Technology Stack
 
-*   **Frontend Engine:** React 19, Vite, Tailwind CSS v4, Framer Motion
-*   **Backend Services:** Node.js, Express, Nodemailer
-*   **Database & Auth:** Firebase (Realtime Sync & Authentication)
-*   **AI Integration:** Google GenAI (Gemini) for dynamic timetable parsing
+- **Frontend Engine:** React 19, Vite, Tailwind CSS v4, Framer Motion
+- **Backend Services:** Node.js, Express, Nodemailer
+- **Database & Auth:** Firebase (Realtime Sync & Authentication)
+- **AI Integration:** Google GenAI (Gemini) for dynamic timetable parsing
 
 ---
 
@@ -37,16 +36,23 @@ Built for the Smart India Hackathon (SIH) | National Institute of Technology (NI
 To run VacantDesk locally for evaluation or development:
 
 ### 1. Clone the Repository
-```bash
-git clone [https://github.com/YOUR_USERNAME/vacantdesk-sih.git](https://github.com/YOUR_USERNAME/vacantdesk-sih.git)
-cd vacantdesk-sih
-2. Install Dependencies
-Bash
-npm install
-3. Configure Environment Variables
-Create a .env file in the root directory and add your specific API keys and credentials. Never commit this file to version control.
 
-Code snippet
+```bash
+git clone https://github.com/YOUR_USERNAME/vacantdesk-sih.git
+cd vacantdesk-sih
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Configure Environment Variables
+
+Create a `.env` file in the root directory and add your specific API keys and credentials. **Never commit this file to version control.**
+
+```env
 # Firebase Configuration
 VITE_FIREBASE_API_KEY=your_api_key
 VITE_FIREBASE_AUTH_DOMAIN=your_auth_domain
@@ -58,26 +64,32 @@ EMAIL_PASS=your_app_password
 
 # Google GenAI
 GOOGLE_GENAI_API_KEY=your_gemini_api_key
-4. Launch the Development Server
-Bash
+```
+
+### 4. Launch the Development Server
+
+```bash
 npm run dev
-The application will instantly launch at http://localhost:5173.
+```
 
-👥 Team Details
-Team Name: [Insert Team Name Here]
+The application will launch at [http://localhost:5173](http://localhost:5173).
 
-Institution: National Institute of Technology (NIT) Raipur
+---
 
-Vikrant Kumar – Team Lead / Architecture & Frontend (Information Technology)
+## 👥 Team Details
 
-[Add Teammate 2] – [Role]
+**Team Name:** [Insert Team Name Here]
+**Institution:** National Institute of Technology (NIT) Raipur
 
-[Add Teammate 3] – [Role]
+| Name | Role |
+| --- | --- |
+| Vikrant Kumar | Team Lead / Architecture & Frontend (Information Technology) |
+| [Add Teammate 2] | [Role] |
+| [Add Teammate 3] | [Role] |
+| [Add Teammate 4] | [Role] |
+| [Add Teammate 5] | [Role] |
+| [Add Teammate 6] | [Role] |
 
-[Add Teammate 4] – [Role]
+---
 
-[Add Teammate 5] – [Role]
-
-[Add Teammate 6] – [Role]
-
-"Engineered for CodeUtsava. Designed for institutional transparency."
+*"Engineered for CodeUtsava. Designed for institutional transparency."*
